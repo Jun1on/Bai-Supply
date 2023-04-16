@@ -1,0 +1,250 @@
+
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #f78d37ed;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+  text-align: left;
+  
+
+}
+
+.about-margin{
+  margin-top: -7rem;
+  margin-bottom: 10rem;
+  
+}
+
+.square {
+  display: flex;
+  width: 200px;
+  height: 600px;
+  background-color: red;
+}
+
+.text {
+  margin: auto;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.gradient-text {
+  font-size: 4.0em;
+  line-height: 1.1;
+  font-weight: 700;
+  background: linear-gradient(to right, #f7801fed, #fffb6a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-button {
+  border: 0px solid transparent;
+  background: linear-gradient(to right, #f7801fed, #fffb6a);
+  transition: 0.5s;
+  
+  
+  /*-webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;*/
+}
+
+.gradient-button:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 2px 4px 6px;
+}
+
+.left{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  float: left;
+  
+}
+
+.right{
+  float: right;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.margin{
+  margin-top: 2.40rem;
+  
+}
+
+.h2{
+  color: orange;
+  
+}
+
+.head{
+  padding: 30px;
+  font-size: 2.0em;
+  line-height: 1.1;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-top: 100px; /* Add more space above the header */
+  margin-bottom: 10px; /* Keep the same amount of space below the header */
+
+}
+
+.bolded-text
+{
+  padding: 20px;
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+
+}
+
+
+.logo-container {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  width: 60px;
+  height: auto;
+}
+
+.nav {
+  outline: gray
+}
+
+.left-header-logo
+{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 40px;
+  height: 40px;
+  width: auto;
+}
+.gray-logo
+{
+  margin: 40px;
+  height: 30px;
+  width: auto;
+  text-align: center
+  
+}
+
+
+.bottom-logo
+{
+  height: 2.5em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+
+}
+
+.right-header-button
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 40px;
+  height: 60px;
+  width: auto;
+}
+
+.navigation-bar
+{
+  
+  background-color: transparent;
+  color: gray;
+}
+
+.navigation-bar:hover
+{
+ 
+  background-color: transparent;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.logo {
+  
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #f4d77faa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #f7801fed);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
